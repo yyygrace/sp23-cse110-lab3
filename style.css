@@ -1,4 +1,10 @@
 
+header{
+    background-color: #000;
+    color: hsl(346, 100%, 90%);
+    font-family: 'Comic Neue', cursive;
+}
+
 /* applying color to the footer */
 footer {
     background-color: grey;
