@@ -1,4 +1,4 @@
-*{
+* {
     text-shadow: 1px 1px 2px pink;
 }
 
@@ -17,11 +17,12 @@
     padding-right: 2%;
 }
 
-nav{
+nav {
     display: inline;
 }
 
-h4, h5 {
+h4,
+h5 {
     /* width style color */
     border: 1mm dotted #db2323;
     /* <top> <right> <bottom> <left> */
@@ -52,7 +53,7 @@ footer {
     color: rgb(173, 226, 226);
 }
 
-button{
+button {
     height: 30px;
     width: 300px;
 }
@@ -66,12 +67,12 @@ button:active {
 }
 
 @media(max-device-width: 768px) {
-    body{
+    body {
         max-width: 100%;
     }
 }
 
-main{
+main {
     min-width: none;
 }
 
@@ -82,7 +83,7 @@ main{
     align-items: center;
 }
 
-.video{
+.video {
     display: grid;
     justify-items: center;
     grid-template-columns: auto;
@@ -93,4 +94,31 @@ input[type="text"] {
     background-color: #d1c0ef;
     border: 1px solid #000000;
     border-radius: 4px;
-  }
+}
+
+div p {
+    color: green;
+}
+
+div>span {
+    color: orange;
+}
+
+h1 ~ h2{
+    color: navy;
+}
+
+h2 + h3{
+    color:purple;
+}
+
+span.bubbles{
+    background-color: #C7F0FF;
+}
+
+span.blossom{
+    background-color: #FFCCD8;
+}
+span.buttercup{
+    background-color: #EAD9FA;
+}
