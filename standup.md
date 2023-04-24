@@ -1,5 +1,9 @@
 ## Daily Stand Up
 
+
+## Week of:
+
+
 ### Friday
 
 | | **Name** | **Priorities** | **Progress** | **Problems** |
