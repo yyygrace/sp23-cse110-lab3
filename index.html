@@ -13,7 +13,7 @@
     <header>
         <h1> Meeting Notes </h1>
         <h2> First Brainstorming </h2>
-        <h3> Apr 14, 2023 </h3>
+        <h3 id="date"> Apr 14, 2023 </h3>
     </header>
     <nav>
         <a href="#attendance"> Attendance </a> <br>
@@ -125,8 +125,6 @@
                 <input type="text"> <br>
                 <h4> Date: </h4>
                 <input type="date">
-                <h4> Additional Comments: </h4>
-                <textarea> </textarea> <br>
                 <h4> Delivery Time: </h4>
                 <input type="time" list="hours">
                 <datalist id="hours">
@@ -137,9 +135,14 @@
                     <option value="16:00"> </option>
                     <option value="17:00"> </option>
                 </datalist> <br>
+                <h5> Additional Comments: </h5>
+                <textarea> </textarea> <br>
+                <br>
                 <button> Place Order </button>
             </fieldset>
         </form>
+
+        <p id="hidden"> hidden text :P </p>
     </main>
     <footer>
         <p>© 2023 Grace</p>

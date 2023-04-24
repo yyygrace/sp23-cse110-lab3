@@ -1,9 +1,13 @@
-h3 {
+*{
+    text-shadow: 1px 1px 2px pink;
+}
+
+#date {
     border-style: double;
     border-color: hsl(346, 63%, 71%);
     border-width: 1mm;
     border-radius: 5Q;
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-bottom: 1lvw;
     margin-left: 5px;
     margin-right: 50vw;
@@ -13,7 +17,15 @@ h3 {
     padding-right: 2%;
 }
 
-h4 {
+#hidden {
+    display: none;
+}
+
+nav{
+    display: inline;
+}
+
+h4, h5 {
     /* width style color */
     border: 1mm dotted #db2323;
     /* <top> <right> <bottom> <left> */
@@ -46,6 +58,11 @@ footer {
     color: rgb(173, 226, 226);
 }
 
+button{
+    height: 30px;
+    width: 300px;
+}
+
 button:hover {
     background-color: cyan;
 }
@@ -54,10 +71,14 @@ button:active {
     box-shadow: 2px 2px 5px blue;
 }
 
-@media(min-device-width: 768px) {
-    h1 {
-        font-size: 48px;
+@media(max-device-width: 768px) {
+    body{
+        max-width: 100%;
     }
+}
+
+main{
+    min-width: none;
 }
 
 .container {
@@ -73,3 +94,9 @@ button:active {
     grid-template-columns: auto;
     row-gap: 15px;
 }
+
+input[type="text"] {
+    background-color: #d1c0ef;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
