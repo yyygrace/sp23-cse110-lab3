@@ -1,4 +1,3 @@
-
 h3 {
     border-style: double;
     border-color: hsl(346, 63%, 71%);
@@ -14,7 +13,7 @@ h3 {
     padding-right: 2%;
 }
 
-h4{
+h4 {
     /* width style color */
     border: 1mm dotted #db2323;
     /* <top> <right> <bottom> <left> */
@@ -23,17 +22,32 @@ h4{
     padding: 5px 2px 5px 5px;
 }
 
-p{
-    margin:auto;
+img {
+    position: static;
 }
 
-header{
+p {
+    margin: auto;
+}
+
+header {
     /*background-color: #000;*/
     font-family: 'Comic Neue', cursive;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 /* applying color to the footer */
 footer {
     background-color: grey;
     color: rgb(173, 226, 226);
+}
+
+button:hover {
+    background-color: cyan;
+}
+
+button:active{
+    box-shadow: 2px 2px 5px blue;
 }
