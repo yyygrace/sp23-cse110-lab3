@@ -20,6 +20,8 @@ h4 {
     margin: 10px 5px 10px 2px;
     /* <top> <right> <bottom> <left> */
     padding: 5px 2px 5px 5px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 img {
