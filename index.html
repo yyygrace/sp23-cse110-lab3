@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -8,11 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
     <title> Meeting Notes </title>
-  </head>
-  <body>
+
+    <style>
+        #hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
     <header>
         <h1> Meeting Notes </h1>
-        <h2> First Brainstorming </h2>
+        <h2 style="text-decoration: underline"> First Brainstorming </h2>
         <h3 id="date"> Apr 14, 2023 </h3>
     </header>
     <nav>
@@ -26,77 +34,79 @@
     </nav>
     <main>
         <div>
-        <section id="attendance">
-            <h3> Attendance </h3>
-            <ul>
-                <li> <span> Blossom </span> </li>
-                <li> <span> Bubbles </span> </li>
-                <li> <span> Buttercup </span> </li>
-            </ul>
-        </section>
-        <section id="agenda">
-            <h3> Agenda </h3>
-            <ol>
-                <li> create a team name </li>
-                <li> get rich </li>
-                <li> take over the <strong> world </strong> </li>
-            </ol>
-        </section>
-        <section id="unfinished">
-            <h3> Unfinished Work </h3>
-            <p> Ideas for a team name: </p>
-            <ul>
-                <li> <em>Powell</em>puff Girls </li>
-            </ul>
-        </section>
-        <section id="new">
-            <h3> New Business </h3>
-            <p> getting rich (possible ways???) </p>
-            <ul>
-                <li> pyramid scheme </li>
-            </ul>
+            <section id="attendance">
+                <h3> Attendance </h3>
+                <ul>
+                    <li> <span> Blossom </span> </li>
+                    <li> <span> Bubbles </span> </li>
+                    <li> <span> Buttercup </span> </li>
+                </ul>
+            </section>
+            <section id="agenda">
+                <h3> Agenda </h3>
+                <ol>
+                    <li> create a team name </li>
+                    <li> get rich </li>
+                    <li> take over the <strong> world </strong> </li>
+                </ol>
+            </section>
+            <section id="unfinished">
+                <h3> Unfinished Work </h3>
+                <p> Ideas for a team name: </p>
+                <ul>
+                    <li> <em>Powell</em>puff Girls </li>
+                </ul>
+            </section>
+            <section id="new">
+                <h3> New Business </h3>
+                <p> getting rich (possible ways???) </p>
+                <ul>
+                    <li> pyramid scheme </li>
+                </ul>
                 <img src="media/pyramid.png" alt="pie chart of a pyramid">
-            <ul>
-                <li> crypto rug pull </li>
-            </ul>
-            <hr>
-            <p> <i> for legal reasons, this is a <b> joke. </b> </i></p>
-        </section>
-        <section id="misc">
-            <h3> Misc </h3>
-            <div class="container">
-                <h4> Comments </h4>
                 <ul>
-                    <li> unoriginal name. </li>
+                    <li> crypto rug pull </li>
                 </ul>
-                <h4> Questions </h4>
-                <ul>
-                    <li> skill issue? </li>
-                </ul>
-                <h4> Concerns </h4>
-                <details> 
-                    <summary> Mojo Jojo </summary> 
-                    an evil genius monkey seeking world domination
-                </details>  
-            </div>
-        </section>
-        <section id="video">
-            <h3> Video </h3>
-            <div class="video">
-                <video controls width="500">
-                    <source src="media/subway.mp4">
-                </video>
-                <p> video caption text </p>
-            </div>
-        </section>
-        <section id="audio">
-            <h3> Audio </h3>
-            <audio controls src="media/amogus.mp3"></audio>
-        </section>
+                <hr>
+                <p> <i> for legal reasons, this is a <b> joke. </b> </i></p>
+            </section>
+            <section id="misc">
+                <h3> Misc </h3>
+                <div class="container">
+                    <h4> Comments </h4>
+                    <ul>
+                        <li> unoriginal name. </li>
+                    </ul>
+                    <h4> Questions </h4>
+                    <ul>
+                        <li> skill issue? </li>
+                    </ul>
+                    <h4> Concerns </h4>
+                    <details>
+                        <summary> Mojo Jojo </summary>
+                        an evil genius monkey seeking world domination
+                    </details>
+                </div>
+            </section>
+            <section id="video">
+                <h3> Video </h3>
+                <div class="video">
+                    <video controls width="500">
+                        <source src="media/subway.mp4">
+                    </video>
+                    <p> video caption text </p>
+                </div>
+            </section>
+            <section id="audio">
+                <h3> Audio </h3>
+                <audio controls src="media/amogus.mp3"></audio>
+            </section>
         </div>
         <form action="/action_page.php" method="get">
             <fieldset>
-                <legend> <h3> Pizza Order Form </h3> </legend>
+                <legend>
+                    <h3> Pizza Order Form </h3>
+                </legend>
                 <h4> Size: </h4>
                 <input type="radio">
                 <label> Small (10 in) </label> <br>
@@ -147,5 +157,6 @@
     <footer>
         <p>© 2023 Grace</p>
     </footer>
-  </body>
+</body>
+
 </html>
