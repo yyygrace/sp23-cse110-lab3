@@ -48,12 +48,25 @@ button:hover {
     background-color: cyan;
 }
 
-button:active{
+button:active {
     box-shadow: 2px 2px 5px blue;
 }
 
-@media(min-device-width: 768px){
-    h1{
+@media(min-device-width: 768px) {
+    h1 {
         font-size: 48px;
     }
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.video{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: auto;
+    row-gap: 15px;
