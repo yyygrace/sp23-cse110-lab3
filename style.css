@@ -17,6 +17,14 @@
     padding-right: 2%;
 }
 
+#hidden {
+    display: none;
+}
+
+nav{
+    display: inline;
+}
+
 h4, h5 {
     /* width style color */
     border: 1mm dotted #db2323;
@@ -48,6 +56,11 @@ footer {
     color: rgb(173, 226, 226);
 }
 
+button{
+    height: 30px;
+    width: 300px;
+}
+
 button:hover {
     background-color: cyan;
 }
@@ -56,10 +69,14 @@ button:active {
     box-shadow: 2px 2px 5px blue;
 }
 
-@media(min-device-width: 768px) {
-    h1 {
-        font-size: 48px;
+@media(max-device-width: 768px) {
+    body{
+        max-width: 100%;
     }
+}
+
+main{
+    min-width: none;
 }
 
 .container {
